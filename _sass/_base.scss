@@ -327,6 +327,9 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
+  .nav-item {
+    font-size: 1.2rem;
+  }  
 }
 
 .navbar-toggler {
@@ -1030,12 +1033,12 @@ nav[data-toggle="toc"] {
   top: 5rem;
 
   .nav .nav > li > a {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
   }
 
   .nav > li > a {
     color: var(--global-text-color);
-    font-size: 0.9rem;
+    font-size: 0.75rem;
 
     &:hover {
       color: var(--global-hover-color);
@@ -1046,7 +1049,7 @@ nav[data-toggle="toc"] {
   .nav-link.active {
     color: var(--global-theme-color);
     border-left-color: var(--global-theme-color);
-    font-size: 0.9rem;
+    font-size: 0.75rem;
 
     &:hover {
       color: var(--global-hover-color);
